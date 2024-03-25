@@ -33,7 +33,7 @@ Você acertou 3 perguntas!
 
 Faça um gerenciador de filas. Este programa deve ter 3 opções:
 
-1. Gerar ficha
+1. gerar ficha
 2. atender
 3. encerrar
 
@@ -93,4 +93,4 @@ Erro! Atenda os pacientes antes de encerrar!
 ```
 </details>
 
-##### Soluções: [Kotlin](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20m%C3%A9dios/gerenciador%20de%20filas/MainGerenciadorDeFilas.kt) [C](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20m%C3%A9dios/gerenciador%20de%20filas/main_gerenciador_de_filas.c) [Python](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20m%C3%A9dios/gerenciador%20de%20filas/main_gerenciador_de_filas.py)
+##### [Explicação de solução](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20m%C3%A9dios/gerenciador%20de%20filas/solu%C3%A7%C3%A3o%20explicada.md)
