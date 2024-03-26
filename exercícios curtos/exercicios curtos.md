@@ -400,6 +400,63 @@ Digite a segunda nota: 8
 Resultado: você foi aprovado(a)
 ```
 </details>
+
+#### 5) Área de polígonos II
+
+Faça um programa que calcula a área de polígonos. Este programa deve perguntar para o usuário qual polígono deve ser usado, `1 - Quadrado` ou `2 - Triângulo`. Caso o usuário digite um valor diferente de `1` e de `2`, o programa deve informar um erro.
+
+ATENÇÃO: para o cálculo da área do triângulo, use variáveis de ponto flutuante. Invés de valores como 2, use 2.0.
+
+<details>
+  <sumary>Exemplos de execução</sumary>
+
+```
+OLÁ, EU SOU UMA CALCULADORA DE ÁREAS DE POLÍGONOS
+
+ESCOLHA UMA OPÇÃO:
+1 - Quadrado
+2 - Triângulo
+
+SUA ESCOLHA: 1
+
+ÁREA DO RETÂNGULO? MUITO BEM!
+
+QUAL A MEDIDA DO PRIMEIRO LADO? 8
+QUAL A MEDIDA DO SEGUNDO LADO? 4
+
+A ÁREA DESTE TRIÂNGULO É: 32
+```
+```
+OLÁ, EU SOU UMA CALCULADORA DE ÁREAS DE POLÍGONOS
+
+ESCOLHA UMA OPÇÃO:
+1 - Quadrado
+2 - Triângulo
+
+SUA ESCOLHA: 2
+
+ÁREA DO TRIÂNGULO? MUITO BEM!
+
+QUAL A MEDIDA DA BASE DO TRIÂNGULO? 7.0
+QUAL A MEDIDA DA ALTURA DO TRIÂNGULO? 3.0
+
+A ÁREA DESTE TRIÂNGULO É: 11.5
+```
+```
+OLÁ, EU SOU UMA CALCULADORA DE ÁREAS DE POLÍGONOS
+
+ESCOLHA UMA OPÇÃO:
+1 - Quadrado
+2 - Triângulo
+
+SUA ESCOLHA: 5
+
+ESCOLHA INVÁLIDA! ME PROCURE QUANDO SOUBER O QUE QUER!
+```
+</details>
+
+
+
 </details>
 
 ---
