@@ -149,7 +149,7 @@ Faça um programa que mostra o título e o menu de um programa. Escolha um progr
 
 </details>
 
-### Variáveis
+### Variáveis e operações
 <details>
   <summary>Exercícios</summary>
 
@@ -170,6 +170,29 @@ Obra favorita: Hagane no Renkinjutsushi
 </details>
 
 ##### Soluções: [Kotlin](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/cart%C3%A3o%20de%20visitas%20flex%C3%ADvel/MainCartaoDeVisitasFlexivel.kt) [C](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/cart%C3%A3o%20de%20visitas%20flex%C3%ADvel/main_cartao_de_visitas_flexivel.c) [Python](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/cart%C3%A3o%20de%20visitas%20flex%C3%ADvel/main_cartao_de_visitas_flexivel.py)
+
+#### 2) Operações aritméticas simples
+
+Faça um programa com as variáveis numéricas `numero1`e `numero2`, e atribua valores iniciais para ambas. Também crie as variáveis `soma`, `subtração`, `multiplicação` e `divisão`, e execute as operações correspondentes e apresente os números e os resultados das operações. Rode este programa algumas vezes, alterando os valores das variáveis `numero1` e `numero2`.
+
+`ATENÇÃO: caso o segundo número seja 0, ocorrerá um erro na divisão. Certifique-se de testar este caso!`
+
+
+<details>
+  <summary>Exemplo</summary>
+
+```
+Operações aritméticas simples
+
+Numero 1: 10
+Numero 2: 4
+
+A soma dos números é: 14
+A subtração dos números é: 6
+A multiplicação dos números é: 40
+A divisão dos números é: 2
+```
+</details>
 
 ---
 
