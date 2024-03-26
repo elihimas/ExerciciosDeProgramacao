@@ -144,10 +144,9 @@ Faça um programa que mostra o título e o menu de um programa. Escolha um progr
   4 - SAIR
   ```
 </details>
+</details>
 
 ---
-
-</details>
 
 ### Variáveis e operações
 <details>
@@ -194,9 +193,46 @@ A divisão dos números é: 2
 ```
 </details>
 
----
+#### 3) Área de polígonos
 
+Faça um programa que calcula a área de um retângulo. Este programa deve exibir os tamanhos dos lado do retângulo e sua área. Depois modifique este programa para também calcular a área de um triângulo.
+
+`ATENÇÃO: para o cálculo da área do triângulo, use variáveis de ponto flutuante. Invés de valores como 2, use 2.0.`
+
+<details>
+  <summary>Exemplos de execução</summary>
+
+```
+ÁREA DO RETÂNGULO
+
+Lado 1: 8
+Lado 2: 4
+
+ÁREA: 32
+```
+```
+ÁREA DO POLÍGONOS
+
+* * * * * * * * * * * * 
+ÁREA DO RETÂNGULO
+Lado 1: 8
+Lado 2: 4
+
+ÁREA: 32
+* * * * * * * * * * * * 
+
+* * * * * * * * * * * * 
+ÁREA DO TRIÂNGULO
+BASE: 7.0
+ALTURA: 3.0
+
+ÁREA: 11.5
+* * * * * * * * * * * * 
+```
 </details>
+</details>
+
+---
 
 ### Leitura de dados
 <details>
@@ -247,10 +283,9 @@ subtração do segundo pelo primeiro: 5
 multiplicação: 50
 ```
 </details>
+</details>
 
 ---
-
-</details>
 
 ### If
 <details>
@@ -364,10 +399,9 @@ Digite a segunda nota: 8
 Resultado: você foi aprovado(a)
 ```
 </details>
+</details>
 
 ---
-
-</details>
 
 ### For
 <details>
@@ -434,10 +468,9 @@ Digite a nota do 5º aluno: 5
 A menor nota é 5, a maior é 9 e a média é 7
 ```
 </details>
+</details>
 
 ---
-
-</details>
 
 ### While
 <details>
@@ -506,7 +539,6 @@ Opção: 3
 Obrigado por usar o sistema!
 ```
 </details>
+</details>
 
 ---
-
-</details>
