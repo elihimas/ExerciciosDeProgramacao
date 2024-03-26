@@ -403,7 +403,7 @@ Resultado: você foi aprovado(a)
 
 #### 5) Área de polígonos II
 
-Faça um programa que calcula a área de polígonos. Este programa deve perguntar para o usuário qual polígono deve ser usado, `1 - Quadrado` ou `2 - Triângulo`. Caso o usuário digite um valor diferente de `1` e de `2`, o programa deve informar um erro.
+Faça um programa que calcula a área de polígonos. Este programa deve perguntar para o usuário qual polígono deve ser usado, `1 - Retângulo` ou `2 - Triângulo`. Caso o usuário digite um valor diferente de `1` e de `2`, o programa deve informar um erro.
 
 ATENÇÃO: para o cálculo da área do triângulo, use variáveis de ponto flutuante. Invés de valores como 2, use 2.0.
 
@@ -414,7 +414,7 @@ ATENÇÃO: para o cálculo da área do triângulo, use variáveis de ponto flutu
 OLÁ, EU SOU UMA CALCULADORA DE ÁREAS DE POLÍGONOS
 
 ESCOLHA UMA OPÇÃO:
-1 - Quadrado
+1 - Retângulo
 2 - Triângulo
 
 SUA ESCOLHA: 1
@@ -430,7 +430,7 @@ A ÁREA DESTE TRIÂNGULO É: 32
 OLÁ, EU SOU UMA CALCULADORA DE ÁREAS DE POLÍGONOS
 
 ESCOLHA UMA OPÇÃO:
-1 - Quadrado
+1 - Retângulo
 2 - Triângulo
 
 SUA ESCOLHA: 2
@@ -446,7 +446,7 @@ A ÁREA DESTE TRIÂNGULO É: 11.5
 OLÁ, EU SOU UMA CALCULADORA DE ÁREAS DE POLÍGONOS
 
 ESCOLHA UMA OPÇÃO:
-1 - Quadrado
+1 - Retângulo
 2 - Triângulo
 
 SUA ESCOLHA: 5
@@ -454,9 +454,6 @@ SUA ESCOLHA: 5
 ESCOLHA INVÁLIDA! ME PROCURE QUANDO SOUBER O QUE QUER!
 ```
 </details>
-
-
-
 </details>
 
 ---
@@ -595,6 +592,47 @@ Escolha uma opção:
 Opção: 3
 
 Obrigado por usar o sistema!
+```
+</details>
+</details>
+
+---
+
+### Funções
+
+<details>
+  <summary>Exercícios</summary>
+
+#### 1) Área de polígonos III
+
+Faça um programa que calcula a área de polígonos. Este programa deve perguntar para o usuário qual polígono deve ser usado:
+```
+1 - Quadrado
+2 - Retângulo
+3 - Triângulo
+4 - Trapézio
+```
+
+Caso o usuário digite um valor inválido, o programa deve informar um erro.
+
+Este progrma deve fazer uso de funções, faça uma função para exibir o menu e una função para tratar cada um dos cálculos das áreas.
+<details>
+  <summary>Exemplo de execução</summary>
+  
+```
+Área de polígonos
+
+Escolha uma opção:
+
+1 - Quadrado
+2 - Retângulo
+3 - Triângulo
+4 - Trapézio
+
+Escolha: 1
+
+Digite o lado do quadrado: 6
+A área do quadrado é 36
 ```
 </details>
 </details>
