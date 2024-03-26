@@ -21,7 +21,7 @@ Faça um programa que mostre um cartão de visita. Alternativamente, você pode 
 Talvez a melhor analogia para programação é que um programa é como uma receita de bolo, você cria os comandos e o computador executa. Faça um programa que mostra uma receita de bolo. Você pode formatar sua receita usando caracteres como estes: `* - . ~ > |`
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
 ```
 Bolo de rolo
@@ -81,7 +81,7 @@ Faça um programa que mostra a frase do dia. Escolha uma frase que você gosta o
 </details>
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
 ```
 *                                 *
@@ -127,7 +127,7 @@ Faça um programa que mostra o título e o menu de um programa. Escolha um progr
 `ATENÇÃO: este programa apenas vai mostrar o título, o menu e então deve encerrar.`
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
   ```
   * - * - * - * - * - * - * - *
@@ -158,7 +158,7 @@ Faça um programa que mostra o título e o menu de um programa. Escolha um progr
 Faça um programa que apresenta informações como nome, idade e filme favorito, ou música favorita, uma obra favorita. O programa deve ser modificável com facilidade, de modo que possamos mudar os valores das variáveis e alterar o resultado do programa.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
 ```
 Nome: Arthur Elihimas
@@ -179,7 +179,7 @@ Faça um programa com as variáveis numéricas `numero1`e `numero2`, e atribua v
 
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
 ```
 Operações aritméticas simples
@@ -207,7 +207,7 @@ A divisão dos números é: 2
 Faça programa que monta um cartão de visitas, pedindo ao usuário as informações do cartão.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
 ```
 GERADOR DE CARTÃO DE VISITAS
@@ -233,7 +233,7 @@ numero2 - numero1
 numero1 * numero2
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
 
 ```
 CALCULADORA SIMPLES
@@ -260,7 +260,7 @@ multiplicação: 50
    Faça um programa que pergunta a idade da pessoa e informa se ela pode votar ou não.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 VERIFICADOR DE VOTO
@@ -280,7 +280,7 @@ Você pode votar
 
 Faça um programa que calcula divisões. Mas cuidadado, devemos verificar se o divisor é negativo!
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 CALCULADORA DE DIVISÃO
@@ -303,7 +303,7 @@ Não podemos dividir por 0!!!
 Faça um programa que informa a quais cargos uma pessoa pode se candidatar. O programa deve perguntar o nome e a idade do usuário e deve informar a quais cargos a pessoa pode se candidatar.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 ANÁLISE ELEITORAL
@@ -335,7 +335,7 @@ Arthur, você pode se candidatar a vereador(a)
 Faça um programa que soma duas notas e informa se a pessoa foi aprovada, reprovada ou foi pra recuperação. Uma média menor que 3 gera reprovação e uma média menor que 7 leva à recuperação.
 
 <details>
-  <summary>Exemplos</summary>
+  <summary>Exemplos de execução</summary>
   
 ```
 Verificador de aprovação
@@ -378,7 +378,7 @@ Resultado: você foi aprovado(a)
 Faça um programa que gera e exibe a tabuada de um número. Use uma variável para controlar o número sobre o qual será gerada a tabuada.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 Tabuada de 7:
@@ -401,7 +401,7 @@ Tabuada de 7:
 Uma padaria tem 4 funcionários. Faça um programa que lê os 4 salários e diz o total
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 CALCULADORA DE FOLHA DE PAGAMENTO
@@ -420,7 +420,7 @@ O total dos salários é: 5300
 Em uma sala de aula há 5 alunos. Faça um programa que lê todas as notas e informa a menor, a maior e a média.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 ANÁLISE DE NOTAS ESCOLARES
@@ -448,7 +448,7 @@ A menor nota é 5, a maior é 9 e a média é 7
 Faça um programa que pede pro usuário escolher um entre três opções: fácil, médio e difícil. Caso o usuário escolha uma opção inválida, o programa deve informar o erro e repetir a pergunta.
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 SELEÇÃO DE DIFICULDADE
@@ -472,7 +472,7 @@ Opção escolhida: médio
 Faça um progrma que exibe curiosidades. O programa deve exibir algus temas e também uma opação de "sair", depois o usuário deve selecionar uma opção. Para cada tema, o programa deve exibir sua curiosidade, quando o usuário escolher "sair", o programa deve encerrar e, quando o usuário escolher uma opção inválida, o programa deve informar o usuário
 
 <details>
-  <summary>Exemplo</summary>
+  <summary>Exemplo de execução</summary>
   
 ```
 Curiosidades
