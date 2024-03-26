@@ -18,7 +18,9 @@ Faça um programa que mostre um cartão de visita. Alternativamente, você pode 
 
 #### 2) Receita de bolo
 
-Talvez a melhor analogia para programação é que um programa é como uma receita de bolo, você cria os comandos e o computador executa. Faça um programa que mostra uma receita de bolo. Você pode formatar sua receita usando caracteres como estes: `* - . ~ > |`
+Talvez a melhor analogia para programação é que um programa é como uma receita de bolo, você cria os comandos e o computador executa. Faça um programa que mostra uma receita de bolo. Você pode formatar sua receita usando caracteres como estes: 
+
+`* - . ~ > | ° •`
 
 <details>
   <summary>Exemplo de execução</summary>
@@ -29,17 +31,17 @@ Bolo de rolo
 
 ~ Ingredientes ~
 
-1 xícara (chá) de açúcar
-250 g de manteiga
-6 gemas
-6 claras
-1 xícara e meia (chá) de farinha de trigo peneirada
-1 pitada de sal
-200 g de goiabada em derretida
-1 copo de água
-meia xícara (chá) de açúcar
+• 1 xícara (chá) de açúcar
+• 250 g de manteiga
+• 6 gemas
+• 6 claras
+• 1 xícara e meia (chá) de farinha de trigo peneirada
+• 1 pitada de sal
+• 200 g de goiabada em derretida
+• 1 copo de água
+• meia xícara (chá) de açúcar
 
-| Modo de Preparo |
+|  Modo de Preparo  |
  
 |  1.  Bata bem o açúcar e a manteiga. Em seguida, junte as gemas, uma a uma.
 |
@@ -50,7 +52,6 @@ meia xícara (chá) de açúcar
 |  4.  Coloque cada uma das massas em assadeiras retangular 20x30 rasas, untadas com bastante manteiga e polvilhadas com farinha de trigo.
 |
 |  5.  Leve ao forno médio preaquecido a 180°C por cerca de 6 a 8 minutos a cada fornada.
-Recheio e Montagem
 |
 |  6.  Desenforme a massa de uma das formas, virando a assadeira em toalha polvilhada com açúcar.
 | 
