@@ -1,14 +1,8 @@
 # Exercícios curtos
 
-- [Main e print](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#main-e-print)
-- [Variáveis](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#vari%C3%A1veis)
-- [Leitura de dados](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#leitura-de-dados)
-- [If](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#if)
-- [For](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#for)
-- [While](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#while)
-
-
 ### Main e print
+<details>
+  <summary>Exercícios</summary>
 
 #### 1) Cartão de visita
 
@@ -151,7 +145,14 @@ Faça um programa que mostra o título e o menu de um programa. Escolha um progr
   ```
 </details>
 
+---
+
+</details>
+
 ### Variáveis
+<details>
+  <summary>Exercícios</summary>
+
 #### 1) Cartão de Visita flexível
 
 Faça um programa que apresenta informações como nome, idade e filme favorito, ou música favorita, uma obra favorita. O programa deve ser modificável com facilidade, de modo que possamos mudar os valores das variáveis e alterar o resultado do programa.
@@ -170,7 +171,14 @@ Obra favorita: Hagane no Renkinjutsushi
 
 ##### Soluções: [Kotlin](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/cart%C3%A3o%20de%20visitas%20flex%C3%ADvel/MainCartaoDeVisitasFlexivel.kt) [C](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/cart%C3%A3o%20de%20visitas%20flex%C3%ADvel/main_cartao_de_visitas_flexivel.c) [Python](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/cart%C3%A3o%20de%20visitas%20flex%C3%ADvel/main_cartao_de_visitas_flexivel.py)
 
+---
+
+</details>
+
 ### Leitura de dados
+<details>
+  <summary>Exercícios</summary>
+
 #### 1) Cartão de Visita flexível II
 
 Faça programa que monta um cartão de visitas, pedindo ao usuário as informações do cartão.
@@ -217,7 +225,14 @@ multiplicação: 50
 ```
 </details>
 
+---
+
+</details>
+
 ### If
+<details>
+  <summary>Exercícios</summary>
+
 #### 1) Verificação de voto
    Faça um programa que pergunta a idade da pessoa e informa se ela pode votar ou não.
 
@@ -327,8 +342,14 @@ Resultado: você foi aprovado(a)
 ```
 </details>
 
-### For
+---
 
+</details>
+
+### For
+<details>
+  <summary>Exercícios</summary>
+      
 #### 1) Tabuada
 
 Faça um programa que gera e exibe a tabuada de um número. Use uma variável para controlar o número sobre o qual será gerada a tabuada.
@@ -391,7 +412,13 @@ A menor nota é 5, a maior é 9 e a média é 7
 ```
 </details>
 
+---
+
+</details>
+
 ### While
+<details>
+  <summary>Exercícios</summary>
 
 #### 1) Selecione uma opção
 
@@ -455,4 +482,8 @@ Opção: 3
 
 Obrigado por usar o sistema!
 ```
+</details>
+
+---
+
 </details>
