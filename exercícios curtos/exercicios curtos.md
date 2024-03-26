@@ -22,29 +22,50 @@ Faça um programa que mostre um cartão de visita. Alternativamente, você pode 
 * - * - * - * - * - * - *
 ```
 
-#### 2) Título e menu
+#### 2) Receita de bolo
 
-Faça um programa que mostra o título e o menu de um programa. Escolha um programa que você gostaria de fazer e as opções de menu que este programa vai oferecer.
-
-`ATENÇÃO: este programa apenas vai mostrar o título, o menu e então deve encerrar.`
+Talvez a melhor analogia para programação é que um programa é como uma receita de bolo, você cria os comandos e o computador executa. Faça um programa que mostra uma receita de bolo. Você pode formatar sua receita usando caracteres como estes: `* - . ~ > |`
 
 <details>
   <summary>Exemplo</summary>
 
-  ```
-  * - * - * - * - * - * - * - *
+```
+Bolo de rolo
+--------------------------------------------------
 
-  *    SISTEMA DE HOTEL       *
+~ Ingredientes ~
 
-  * - * - * - * - * - * - * - *
+1 xícara (chá) de açúcar
+250 g de manteiga
+6 gemas
+6 claras
+1 xícara e meia (chá) de farinha de trigo peneirada
+1 pitada de sal
+200 g de goiabada em derretida
+1 copo de água
+meia xícara (chá) de açúcar
 
-  ESCOLHA UMA OPÇÃO
-
-  1 - GERENCIAR QUARTOS
-  2 - RESERVAR
-  3 - CHECKOUT
-  4 - SAIR
-  ```
+| Modo de Preparo |
+ 
+|  1.  Bata bem o açúcar e a manteiga. Em seguida, junte as gemas, uma a uma.
+|
+|  2.  Acrescente a farinha peneirada, uma pitada de sal e misture delicadamente.
+|
+|  3.  Bata as claras em neve e junte a massa e divida a massa em cinco partes iguais.
+|
+|  4.  Coloque cada uma das massas em assadeiras retangular 20x30 rasas, untadas com bastante manteiga e polvilhadas com farinha de trigo.
+|
+|  5.  Leve ao forno médio preaquecido a 180°C por cerca de 6 a 8 minutos a cada fornada.
+Recheio e Montagem
+|
+|  6.  Desenforme a massa de uma das formas, virando a assadeira em toalha polvilhada com açúcar.
+| 
+|  7.  Recheie com a goiabada derretida e enrole rapidamente, com ajuda da própria toalha.
+|
+|  8.  Repita o processo até a última camada.
+|
+|  9.  Coloque o bolo no prato de servir e polvilhe com açúcar.
+```
 </details>
 
 #### 3) Frase do dia
@@ -104,6 +125,31 @@ EEEEEE  LLLLLL  IIII  ZZZZZZZ   AA   AA
 *                                     *
 * * * * * * * * * * * * * * * * * * * *
 ```
+
+#### 6) Título e menu
+
+Faça um programa que mostra o título e o menu de um programa. Escolha um programa que você gostaria de fazer e as opções de menu que este programa vai oferecer.
+
+`ATENÇÃO: este programa apenas vai mostrar o título, o menu e então deve encerrar.`
+
+<details>
+  <summary>Exemplo</summary>
+
+  ```
+  * - * - * - * - * - * - * - *
+
+  *    SISTEMA DE HOTEL       *
+
+  * - * - * - * - * - * - * - *
+
+  ESCOLHA UMA OPÇÃO
+
+  1 - GERENCIAR QUARTOS
+  2 - RESERVAR
+  3 - CHECKOUT
+  4 - SAIR
+  ```
+</details>
 
 ### Variáveis
 #### 1) Cartão de Visita flexível
