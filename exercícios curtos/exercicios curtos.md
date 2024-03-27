@@ -73,9 +73,9 @@ Faça um programa que mostra a frase do dia. Escolha uma frase que você gosta o
 <details>
   <summary>Frases sugeridas</summary>
 
+- Ciência da computação tem tanto a ver com o computador como a Astronomia com o telescópio, a Biologia com o microscópio, ou a Química com os tubos de ensaio. A Ciência não estuda ferramentas, mas o que fazemos e o que descobrimos com elas.
 - O bom senso é a coisa do mundo melhor partilhada, pois cada qual pensa estar tão bem provido dele que mesmo os que são mais difíceis de contentar em qualquer outra coisa, não costumam desejar tê-lo mais do que o têm. E não é verossímil que todos se enganem a tal respeito; mas isso antes testemunha que o poder de bem julgar e distinguir o verdadeiro do falso, que é propriamente o que se denomina o bom senso ou a razão, é naturalmente igual em todos os homens.
 - A tentativa é o primeiro passo para o fracaço
-- Ciência da computação tem tanto a ver com o computador como a Astronomia com o telescópio, a Biologia com o microscópio, ou a Química com os tubos de ensaio. A Ciência não estuda ferramentas, mas o que fazemos e o que descobrimos com elas.
 - Um passo a frente e você já não está mais no mesmo lugar
 - Eu vejo mais que os outros porque eu sei pra onde olhar
 - Qual é a luz que brilha através daquela janela? É o Oriente, e Julieta é o Sol. Ergue-te, ó Sol resplandecente, e mata a Lua invejosa, que já está fraca e pálida de dor ao ver que tu, sua sacerdotisa, és muito mais bela do que ela própria.
