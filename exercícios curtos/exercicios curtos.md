@@ -635,6 +635,31 @@ Digite o lado do quadrado: 6
 A área do quadrado é 36
 ```
 </details>
+
+#### 2) Refatoração
+
+No desenvolvimento profissional de software é muito importante que constantemente nós melhoremos o código que criamos. Quando mudamos um código para organizá-lo melhor, chamamos isso de refatoração. Escolha pelo menos 4 programas que você já fez e mova parte do seu código para funções.
+
+Para este exercício, não tente mudar tudo para funções de uma só vez, tenha paciência e comemore os pequenos avanços.
+
+Praticamente todos os programas aqui apresentam um título e esta exibição destes títulos pode ser movida para funções, a exibição do texto dos nossos menus também pode ser feitas em funções. Com o tempo, você vai aprender a organizar bem seu código usando funções bem definidas.
+
+`ATENÇÃO: ATENÇÃO: ATENÇÃO: NOMES DE FUNÇÕES DEVEM SER NOMES DE VERBOS.`
+
+```
+soma(numero1, numero2)  ❌ 
+somar(numero1, numero2) ✅ 
+
+titulo()       ❌ 
+exibirTitulo() ✅
+
+menu()       ❌ 
+exibirMenu() ✅
+
+dados()    ❌ 
+lerDados() ✅
+```
+
 </details>
 
 ---
