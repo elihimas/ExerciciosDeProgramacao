@@ -1,5 +1,5 @@
 # Exercicios de Programação
-Este repositório contém vários exercícios de programação, voltados principalmente para ajudar quem está iniciando seus estudos em programação. Os exercícios começam com o nível de complexidade mais básico possível.
+Este repositório contém vários exercícios de programação, voltados principalmente para ajudar quem está iniciando seus estudos em programação. Os exercícios começam com o nível de complexidade mais básico possível e aumentam de dificuldade gradativamente.
 
 Os exercícios são divididos em três grandes seções: exercícios curtos, exercícios médios e projetos.
 
@@ -14,8 +14,8 @@ Os projetos propõe desafios maiores, que demandam a aplicação de vários conc
 
 Dependendo do exercício, os exercícios têm:
 - Enunciado
+- Exemplos de entrada e saída   
 - Uma explicação de solução
-- Exemplos de entrada e saída
 - Um passo a passo de como implementar a solução
 
 [Exercícios curtos](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md)

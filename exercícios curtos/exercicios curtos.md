@@ -454,6 +454,24 @@ SUA ESCOLHA: 5
 ESCOLHA INVÁLIDA! ME PROCURE QUANDO SOUBER O QUE QUER!
 ```
 </details>
+
+#### 6) Par ou ímpar
+
+Faça um programa que lê um número e verifica se ele é par ou ímpar.
+
+Na programação, para verificarmos se um número é par, usamos um operador especial, o operador de módulo (%). Este operador indica o resto da divisão entre dois números. Quando o resto da divisão é zero, então o primeiro número é divisível pelo segundo.
+
+Exemplos:
+```
+resto = 4 % 2;    // 0    -> 4  é par
+resto = 15 % 2;   // 1    -> 15 é ímpar 
+resto = 7782 % 2; // 7782 -> 7782 é par
+
+ehPar = 4 % 2 == 0;    // true
+ehPar = 15 % 2 == 0;   // false
+ehPar = 7782 % 2 == 0; // true
+```
+
 </details>
 
 ---
@@ -660,6 +678,119 @@ dados()    ❌
 lerDados() ✅
 ```
 
+#### 3) Enciclopédia de programação
+
+Faça um programa que ensina sobre programação. Este programa deve exibir um menu de comandos e conceitos de programação. Para cada opção, o programa deve exibir um breve texto explicando este conceito. Não esqueça de incluir funções!
+
+`A exibição dos conceitos deve ser feita dentro de funções.`
+
+<details>
+  <summary>Exemplo de execução</summary>
+  
+```
+Enciclopédia de programação
+
+Escolha uma opção:
+
+1 - main
+2 - variáveis
+3 - if-else
+4 - funções
+
+Escolha: 2
+
+Variáveis:
+Variáveis são o mecanismo de armazenamento de informações. Números, nomes, datas, usuários e produtos são exemplos de variáveis.
+```
+</details>
+</details>
+
+---
+
+### Listas
+
+<details>
+  <summary>Exercícios</summary>
+
+#### 1) Lista de amigos
+Faça um programa de cadastro de amigos. Este programa tem duas etapas:
+
+Etapa 1 - leitura dos dados:
+
+O programa deve pedir para o usuário digitar nomes de amigos. Enquanto o usuário não digitar [enter], o programa deve guardar os amigos inseridos em uma lista.
+
+Etapa 2 - exibição dos dados:
+
+O programa deve exibir os amigos inseridos na etapa anterior.
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Gerenciador de amigos
+
+Digite um amigo ou [enter] para encerrar: Huguinho
+Digite um amigo ou [enter] para encerrar: Zezinho
+Digite um amigo ou [enter] para encerrar: Luisinho
+Digite um amigo ou [enter] para encerrar: 
+
+Amigos lidos:
+Huguinho
+Zezinho
+Luisinho
+```
+</details>
+
+#### 2) Separação de pares e ímpares
+
+Faça um programa que lê números positivos e exibibe quais foram pares e quais foram ímpares. O programa deve parar de ler números enquanto o usuário digitar números positivos.
+
+Para saber como verificar se um número é impar ou par, veja o exercício `Par ou ímpar` na seção [if](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md#if).
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Pares e ímpares
+
+Digite um positivo ou um não positivo para encerrar: 10
+Digite um positivo ou um não positivo para encerrar: 12
+Digite um positivo ou um não positivo para encerrar: 5
+Digite um positivo ou um não positivo para encerrar: 1
+Digite um positivo ou um não positivo para encerrar: 1
+Digite um positivo ou um não positivo para encerrar: 7782
+Digite um positivo ou um não positivo para encerrar: 9
+Digite um positivo ou um não positivo para encerrar: 0
+
+Números pares:
+10 12 7782
+
+Números ímpares:
+5 1 1 9
+```
+</details>
+
+#### 3) Loteria
+
+Faça um programa que lê os 6 números da loteria e depois os exibe.
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Loteria
+
+Digite um número: 12 
+Digite um número: 30
+Digite um número: 16 
+Digite um número: 45
+Digite um número: 50
+Digite um número: 7
+
+Números lidos:
+12 30 16 45 50 7
+```
+</details>
 </details>
 
 ---
