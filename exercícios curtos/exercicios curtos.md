@@ -712,32 +712,25 @@ Variáveis são o mecanismo de armazenamento de informações. Números, nomes, 
 <details>
   <summary>Exercícios</summary>
 
-#### 1) Lista de amigos
-Faça um programa de cadastro de amigos. Este programa tem duas etapas:
+#### 1) Loteria
 
-Etapa 1 - leitura dos dados:
-
-O programa deve pedir para o usuário digitar nomes de amigos. Enquanto o usuário não digitar [enter], o programa deve guardar os amigos inseridos em uma lista.
-
-Etapa 2 - exibição dos dados:
-
-O programa deve exibir os amigos inseridos na etapa anterior.
+Faça um programa que lê os 6 números da loteria e depois os exibe.
 
 <details>
   <summary>Exemplo de execução</summary>
 
 ```
-Gerenciador de amigos
+Loteria
 
-Digite um amigo ou [enter] para encerrar: Huguinho
-Digite um amigo ou [enter] para encerrar: Zezinho
-Digite um amigo ou [enter] para encerrar: Luisinho
-Digite um amigo ou [enter] para encerrar: 
+Digite um número: 12 
+Digite um número: 30
+Digite um número: 16 
+Digite um número: 45
+Digite um número: 50
+Digite um número: 7
 
-Amigos lidos:
-Huguinho
-Zezinho
-Luisinho
+Números lidos:
+12 30 16 45 50 7
 ```
 </details>
 
@@ -770,25 +763,32 @@ Números ímpares:
 ```
 </details>
 
-#### 3) Loteria
+#### 3) Lista de amigos
+Faça um programa de cadastro de amigos. Este programa tem duas etapas:
 
-Faça um programa que lê os 6 números da loteria e depois os exibe.
+Etapa 1 - leitura dos dados:
+
+O programa deve pedir para o usuário digitar nomes de amigos. Enquanto o usuário não digitar [enter], o programa deve guardar os amigos inseridos em uma lista.
+
+Etapa 2 - exibição dos dados:
+
+O programa deve exibir os amigos inseridos na etapa anterior.
 
 <details>
   <summary>Exemplo de execução</summary>
 
 ```
-Loteria
+Gerenciador de amigos
 
-Digite um número: 12 
-Digite um número: 30
-Digite um número: 16 
-Digite um número: 45
-Digite um número: 50
-Digite um número: 7
+Digite um amigo ou [enter] para encerrar: Huguinho
+Digite um amigo ou [enter] para encerrar: Zezinho
+Digite um amigo ou [enter] para encerrar: Luisinho
+Digite um amigo ou [enter] para encerrar: 
 
-Números lidos:
-12 30 16 45 50 7
+Amigos lidos:
+Huguinho
+Zezinho
+Luisinho
 ```
 </details>
 </details>
