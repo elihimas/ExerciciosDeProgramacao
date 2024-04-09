@@ -231,6 +231,46 @@ ALTURA: 3.0
 * * * * * * * * * * * * 
 ```
 </details>
+
+#### 4) Conversão de moedas
+
+Faça um programa que calcula o valor em Reais de um valor equivalente em Euros. O programa deve exibir o dia da cotação, mostrar a cotação de Euro para Real naquele dia e então mostrar alguns valores convertidos de uma moeda para a outra.
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Conversão de moedas
+
+Data da cotação: 01/01/2002
+Valor do Euro em Reais: 2.0834
+
+Conversões Real -> Euro
+R$ 3.0 ->  EUR 1.43995392
+R$ 5.0 ->  EUR 2.3999232
+R$ 10.0 ->  EUR 4.7998464
+
+Conversões Euro -> Real
+EUR 3 -> R$ 6.2502
+EUR 5 -> R$ 10.417
+EUR 10 -> 20.834
+```
+</details>
+
+#### 5) Calculo de salário por hora
+
+Faça um programa que calcula o valor da hora trabalhada, considerando que um mês tem 220 horas de trabalho (44 horas de trabalho semanais). O programa deve exibir um valor de salário e o equivalente deste valor em horas.
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+CÁLCULO DO VALOR DA HORA DE TRABALHO 
+
+Valor do salário: R$ 2500
+Valor da hora trabalhada: R$ 11.3636364
+```
+</details>
 </details>
 
 ---
