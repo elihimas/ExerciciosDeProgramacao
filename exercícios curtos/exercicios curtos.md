@@ -503,9 +503,9 @@ Na programação, para verificarmos se um número é par, usamos um operador esp
 
 Exemplos:
 ```
-resto = 4 % 2;    // 0    -> 4  é par
-resto = 15 % 2;   // 1    -> 15 é ímpar 
-resto = 7782 % 2; // 7782 -> 7782 é par
+restoDaDivisao = 4 % 2;    // 0 -> 4  é par
+restoDaDivisao = 15 % 2;   // 1 -> 15 é ímpar 
+restoDaDivisao = 7782 % 2; // 0 -> 7782 é par
 
 ehPar = 4 % 2 == 0;    // true
 ehPar = 15 % 2 == 0;   // false
