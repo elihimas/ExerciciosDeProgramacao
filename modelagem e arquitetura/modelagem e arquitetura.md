@@ -24,7 +24,7 @@ Cada candidatura tem as seguintes informações:
 ```
 - Nome
 - Nível de habilidade -> iniciante, intermediário ou avançado
-- Habilidades -> algoritmos, modelagem, orientação a objetos, Kotlin, C, Java, Python ou 
+- Habilidades -> algoritmos, modelagem, orientação a objetos, Kotlin, C, Java ou Python 
 - Habilidades interpessoais -> boa comunicação, capacidade de mediação, escuta ativa, autonomia ou proatividade
 - Anos de experiência
 ```
@@ -37,6 +37,7 @@ intermediário               30 pontos
 avançado                    80 pontos
 habilidade                  20 pontos
 habilidade interpessoal     25 pontos
+experiência                 10 pontos
 ```
 
 É possível que uma candidatura seja preenchida de forma inválida. Caso o nome não seja preenchido ou o nível de habilidade não seja identico aos níveis listados, a candidatura deve ser invalidada.
