@@ -93,4 +93,4 @@ Erro! Atenda os pacientes antes de encerrar!
 ```
 </details>
 
-##### [Explicação de solução](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20m%C3%A9dios/gerenciador%20de%20filas/solu%C3%A7%C3%A3o%20explicada.md)
+##### [Explicação de solução](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/pequenos%20projetos/gerenciador%20de%20filas/solu%C3%A7%C3%A3o%20explicada.md)

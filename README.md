@@ -20,6 +20,8 @@ Dependendo do exercício, os exercícios têm:
 
 [Exercícios curtos](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20curtos/exercicios%20curtos.md)
 
-[Exercícios médios](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/exerc%C3%ADcios%20m%C3%A9dios/exerc%C3%ADcios%20m%C3%A9dios.md)
+[Pequenos desafios](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/pequenos%20desafios/pequenos%20desafios.md)
+
+[Pequenos projetos](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/pequenos%20projetos/pequenos%20projetos.md)
 
 [Projetos](https://github.com/elihimas/ExerciciosDeProgramacao/blob/main/projetos/projetos.md)
