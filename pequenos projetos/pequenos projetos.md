@@ -1,4 +1,4 @@
-# Exercícios de médios
+# Pequenos projetos
 
 #### 1) Jogo de perguntas e respostas
 
