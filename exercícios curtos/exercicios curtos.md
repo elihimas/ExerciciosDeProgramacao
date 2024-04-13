@@ -320,7 +320,7 @@ Digite outro número: 5
 Resultados:
 soma: 15
 subtração do primeiro pelo segundo: 5
-subtração do segundo pelo primeiro: 5
+subtração do segundo pelo primeiro: -5
 multiplicação: 50
 ```
 </details>
