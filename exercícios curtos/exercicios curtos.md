@@ -564,7 +564,7 @@ O total dos salários é: 5300
 
 #### 3) Análise de notas escolares
 
-Em uma sala de aula há 5 alunos. Faça um programa que lê todas as notas e informa a menor, a maior e a média.
+Em uma sala de aula há 5 alunos. Faça um programa que lê todas as notas e informa a média da turma.
 
 <details>
   <summary>Exemplo de execução</summary>
@@ -574,11 +574,11 @@ ANÁLISE DE NOTAS ESCOLARES
 
 Digite a nota do 1º aluno: 7
 Digite a nota do 2º aluno: 8
-Digite a nota do 3º aluno: 6
+Digite a nota do 3º aluno: 6.2
 Digite a nota do 4º aluno: 9
-Digite a nota do 5º aluno: 5
+Digite a nota do 5º aluno: 5.5
 
-A menor nota é 5, a maior é 9 e a média é 7
+A média da turma é 7.14
 ```
 </details>
 </details>
