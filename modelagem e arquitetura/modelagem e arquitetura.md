@@ -6,7 +6,9 @@ Crie um programa que calcula a idade do usuário. Este programa deve ler o nome,
 
 Além de calcular a idade, o programa deve informar se o usuário é criança (0-12 anos), adolescente (13-17 anos) ou adulto(a) (18 anos ou mais).
 
-Para esta implementação, crie uma estrutura chamada `Entrada`, que guarde os dados de entrada e outra estrutura, chamada `Resultados`, que guarde o resultado, ou seja, a idade e classificaçao (criança, adolescente ou adulto(a))
+<details>
+    <summary>Aprofundamento</summary>
+Para esta implementação, crie uma entidade chamada `Entrada`, que guarde os dados de entrada e outra entidade, chamada `Resultados`, que guarde o resultado, ou seja, a idade e classificaçao (criança, adolescente ou adulto(a))
 
 Crie três funções para implementar sua solução:
 - `lerDados()` -> faz a leitura da `Entrada`
@@ -14,10 +16,11 @@ Crie três funções para implementar sua solução:
 - `exibirResultados(resultados)` -> que exibe os resultados do programa.
 
 A partir destes funções, seu código principal deve ter apenas 3 linhas.
+</details>
 
 #### 2) Classificação de candidatos
 
-Faça um programa que lê os dados de duass candidaturas e informa qual candidato tem a maior pontuação.
+Faça um programa que lê os dados de duas candidaturas e informa qual candidato tem a maior pontuação.
 
 Cada candidatura tem as seguintes informações:
 
@@ -40,11 +43,13 @@ habilidade interpessoal     25 pontos
 experiência                 10 pontos
 ```
 
+<details>
+    <summary>Aprofundamento</summary>
 É possível que uma candidatura seja preenchida de forma inválida. Caso o nome não seja preenchido ou o nível de habilidade não seja identico aos níveis listados, a candidatura deve ser invalidada.
 
-Para resolver este problema, crie uma estrutura chamada `Candidatura`, com os dados citados acima e uma estrutura chamada `ResultadoDaCandidatura`, que tem dentro de si uma candidatura e a pontuação daquela candidatura. Caso a pontuação seja 0, isto indica que a candidatura é inválida. 
+Para resolver este problema, crie uma entidade chamada `Candidatura`, com os dados citados acima e uma entidade chamada `ResultadoDaCandidatura`, que tem dentro de si uma candidatura e a pontuação daquela candidatura. Caso a pontuação seja 0, isto indica que a candidatura é inválida. 
 
-Crie também uma estrutura `ResultadoDaSelecao`. Esta estrutura tem duas informações: uma mensagem de erro e a candidatura vencedora. Existem alguns casos possíveis de resultado da seleção:
+Crie também uma entidade `ResultadoDaSelecao`. Esta entidade tem duas informações: uma mensagem de erro e a candidatura vencedora. Existem alguns casos possíveis de resultado da seleção:
 
 ```
 Duas candidaturas  inválidas -> o erro deve ser preenchido e a candidatura vencedora será nula
@@ -57,3 +62,25 @@ Em qualquer outro caso, a candidatura com maior pontuação deverá ser a venced
 Faça uma função chamada `lerCandidatura()`, que faz a leitura de uma candidatura, uma funçao `avaliar(candidatura)` que avalia a candidatura e gera o resultado da candidatura e faça uma função `gerarResultado(resultadoDaCandidatura1, ResultadoDaCandidatura2)`, que gera o resultado final. Para finalizar, faça uma função chamada `exibirResultadoDaSelecao(resultadoDaSelecao)`, que deve informar o resutlado do processo como um todo.
 
 Seu código principal terá algumas linhas de código, então deixe algumas linhas em branco para deixar claro quais são as seções do código (letura, processamento e saída).
+</details>
+
+#### 3) Urna eletrônica
+
+O condomínio de um prédio quer utilizar um sistema eletrônico de votação. Faça um sistema de votação que lê os candidatos, a quantidade de votantes e então processa a votação, em dois turnos.
+
+<details>
+    <summary>Aprofundamento</summary>
+Caso um dos candidatos atinja 50% dos votos, arredondos para cima, não haverá segundo turno.
+Caso contrário, os dois candidatos mais votados devem ir para o segundo turno.
+
+Casos extremos:
+Caso haja somente um candidato, a votação não deve ser processada.
+Caso o segundo e o terceiro candidatos tenham a mesma votação, a etapa do primeiro turno deve ser repetida.
+
+#### Ponderações sobre a solução
+Este sistema tem os conceitos de `candidato`, `primeiro turno`, `segundo turno`, `voto` e `resultado`.
+
+Pense um pouco: qual ou quais destes conceitos precisam ser modelados como entidades? Como as entidades do sistema vão se relacioanr?
+
+Um `candidato` possui uma quantidade de votos. Para cada `voto`, a quantidade de votos do candidato é incrementada.
+</details>
