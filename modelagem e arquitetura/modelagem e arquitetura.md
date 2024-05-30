@@ -70,17 +70,21 @@ O condomínio de um prédio quer utilizar um sistema eletrônico de votação. F
 
 <details>
     <summary>Aprofundamento</summary>
+
 Caso um dos candidatos atinja 50% dos votos, arredondos para cima, não haverá segundo turno.
 Caso contrário, os dois candidatos mais votados devem ir para o segundo turno.
 
 Casos extremos:
-Caso haja somente um candidato, a votação não deve ser processada.
-Caso o segundo e o terceiro candidatos tenham a mesma votação, a etapa do primeiro turno deve ser repetida.
+- Caso haja somente um candidato, a votação não deve ser processada.
+- Caso o segundo e o terceiro candidatos tenham a mesma votação, a etapa do primeiro turno deve ser repetida.
+- Caso só hajam dois candidatos, não deverá haver segundo turno.
 
 #### Ponderações sobre a solução
 Este sistema tem os conceitos de `candidato`, `primeiro turno`, `segundo turno`, `voto` e `resultado`.
 
-Pense um pouco: qual ou quais destes conceitos precisam ser modelados como entidades? Como as entidades do sistema vão se relacioanr?
+Pense um pouco: qual ou quais destes conceitos precisam ser modelados como entidades? Como as entidades do sistema vão se relacionar?
 
-Um `candidato` possui uma quantidade de votos. Para cada `voto`, a quantidade de votos do candidato é incrementada.
+Um `candidato` possui uma quantidade de votos. Para cada `voto`, a quantidade de votos de algum dos candidatos é incrementada.
+
+
 </details>
