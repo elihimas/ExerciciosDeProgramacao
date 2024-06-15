@@ -76,8 +76,8 @@ Caso contrário, os dois candidatos mais votados devem ir para o segundo turno.
 
 Casos extremos:
 - Caso haja somente um candidato, a votação não deve ser processada.
-- Caso o segundo e o terceiro candidatos tenham a mesma votação, a etapa do primeiro turno deve ser repetida.
 - Caso só hajam dois candidatos, não deverá haver segundo turno.
+- Caso o segundo e o terceiro candidatos tenham a mesma votação no primeiro turno, a etapa do primeiro turno deve ser repetida.
 
 #### Ponderações sobre a solução
 Este sistema tem os conceitos de `candidato`, `primeiro turno`, `segundo turno`, `voto` e `resultado`.
@@ -86,5 +86,19 @@ Pense um pouco: qual ou quais destes conceitos precisam ser modelados como entid
 
 Um `candidato` possui uma quantidade de votos. Para cada `voto`, a quantidade de votos de algum dos candidatos é incrementada.
 
+#### Dividir pra conquistar
+A quantidade de `candidatos` determina alguns aspectos do comportamento do sistema, então nós temos que implementar uma solução para cada um destes casos, mas isso aumenta a complexidade geral do sistema. 
+
+Após a leitura inicial dos dados, ou seja, a leitura dos candidatos, temos que determinar se haverá ou não segundo turno. Inicialmente, podemos fazer uma simplificação:
+
+1 candidato -> o sistema deve informar que não é possível fazer a eleição
+
+2 candidatos -> processamos esse tipo de votação
+
+mais candidatos -> o sistema deve informar que elições com múltiplos candidatos ainda não é suportada.
+
+Ou seja, simplificamos o sistema pra um sistema de votação de dois candidatos. Estando isso pronto, podemos partir pra situação mais difícil de se processar uma eleição completa.
+
+No desenvolvimento de software, temos que organizar nosso trabalho de modo a dividirmos os problemas em problemas menores, para que eles possam ser resolvidos individualmente, o que nos permite trabalharmos de forma mais simples e eficiente.
 
 </details>
