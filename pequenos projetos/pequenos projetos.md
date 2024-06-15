@@ -49,7 +49,7 @@ Gerenciador de filas
 Escolha uma opção:
 1 - Gerar ficha
 2 - atender
-3 - encerrar
+3 - encerra
 
 Opção: 1
 
