@@ -9,18 +9,14 @@ int main() {
     while (strcmp(opcaoSelecionada, "") == 0) {
         printf("ESCOLHA UMA OPÇÃO: facil, medio e dificil\n");
         printf("Sua escolha: ");
-        char input[25];
-        scanf( "%s", input);
+        scanf( "%s", opcaoSelecionada);
         printf("\n");
 
-        int ehOpcaoValida = strcmp(input, "facil") == 0
-            || strcmp(input, "medio") == 0
-            || strcmp(input, "dificil") == 0;
+        int ehOpcaoValida = strcmp(opcaoSelecionada, "facil") == 0
+            || strcmp(opcaoSelecionada, "medio") == 0
+            || strcmp(opcaoSelecionada, "dificil") == 0;
 
-        if (ehOpcaoValida) {
-            strcpy(opcaoSelecionada, input);
-
-        } else {
+        if (!ehOpcaoValida) {
             printf("OPÇÃO INVÁLIDA!!\n\n");
         }
     }
