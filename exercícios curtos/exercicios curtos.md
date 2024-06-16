@@ -259,7 +259,7 @@ EUR 10 -> 20.834
 
 #### 5) Calculo de salário por hora
 
-Faça um programa que calcula o valor da hora trabalhada, considerando que um mês tem 220 horas de trabalho (44 horas de trabalho semanais). O programa deve exibir um valor de salário e o equivalente deste valor em horas.
+Faça um programa que calcula o valor da hora trabalhada, considerando que um mês tem 220 horas de trabalho (44 horas de trabalho semanais). O programa deve exibir um valor de salário que está sendo considerado e o equivalente deste valor em horas.
 
 <details>
   <summary>Exemplo de execução</summary>
@@ -269,6 +269,21 @@ CÁLCULO DO VALOR DA HORA DE TRABALHO
 
 Valor do salário: R$ 2500
 Valor da hora trabalhada: R$ 11.3636364
+```
+</details>
+
+#### 6) Calculo de salários mínimos
+
+Faça um programa que calcula quantos salários mínimos uma pessoa recebe. O programa deve exibir o valor atual do salário mínimos, o valor do salário que está sendo considerado e a quantidade de salários mínimos recebida.
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Calculadora de salário
+
+Valor do salário: R$ 2500
+Quantidade de salários mínimos recebido: 1.770538
 ```
 </details>
 </details>
