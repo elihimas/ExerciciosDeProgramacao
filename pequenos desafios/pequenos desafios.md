@@ -1,7 +1,6 @@
 # Pequenos desafios
 
 #### 1) Melhores de três
-
 Um professor usa o seguinte esquema para gerar suas notas: cada aluno faz três provas, a menor delas e descartada e sobre as outras duas é feita uma média.
 
 Faça uma função que recebe 3 notas e retorna a nota gerada pelo esquema proposto.
@@ -33,5 +32,96 @@ Amigos lidos:
 Huguinho
 Zezinho
 Luisinho
+```
+</details>
+
+#### 5) Compra mais vantajosa
+Frequentemente temos que escolher entre produtos semelhantes, mas com quantidade ou volume ou peso diferentes, além do preço. Faça um programa que calcula entre dois produtos qual é a compra mais vantajosa.
+
+O programa deve ler o nome, preço e quantidade de dois produtos e informar qual deles tem melhor valor. O programa não deve fazer a leitura de unidades de medida (kg, ml, etc)
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Compra mais vantajosa
+
+Digite o nome do primeiro produto:
+Toddy 400
+
+Quanto custa Toddy 400?
+4,50
+
+Quanto vem do protudo?
+400
+
+Digite o nome do segundo produto:
+Toddy 700
+
+Quanto custa Toddy 700?
+7,80
+
+Quanto vem do protudo?
+700
+
+A compra mais vantajosa é: Toddy 700
+```
+</details>
+
+#### 6) Unidades de medida
+O que é mais longo, 4 dias ou 100 horas?
+
+O que pesa mais, 8kg ou 8000g?
+
+Muitas vezes temos que decompor, identificar e transformar entradas do usuário. Faça um programa que lê dois valores de peso e, caso eles estejam em unidades distintas, informa os valores equivalente na outra medida. Ao fim, o programa deve informar qual valor é maior. O programa deve ser capaz de aceitar valores em gramas, kilos e toneladas. 
+
+- Caso os valores sejam equivalentes, isso deve ser informado.
+- Caso o usuário digite uma entrada inválida, o programa deve indicar erro.
+
+Faça um segundo programa que aplica a mesma lógica para tempo.
+
+<details>
+  <summary>Exemplos de execução</summary>
+
+```
+Unidades de medida
+
+Digite um valor de peso: 800g
+Digite outro valor de peso: 4kg
+
+Resultados:
+- 800g corresponde a 0,8kg
+- 4kg corresponde a 4000g
+
+Logo, 4kg pesa mais que 800g
+```
+  
+```
+Unidades de medida
+
+Digite um valor de peso: 7kg
+Digite outro valor de peso: 4kg
+
+7kg pesa mais que 4kg
+```
+```
+Unidades de medida
+
+Digite um valor de peso: 8t
+Digite outro valor de peso: 8000kg
+
+Resultados:
+- 8t corresponde a 8000kg
+- 8000kg corresponde a 8t
+
+Logo, 8t pesa o mesmo que 8000kg
+```
+```
+Unidades de medida
+
+Digite um valor de peso: 8t
+Digite outro valor de peso: 8000k
+
+Dados inválidos!!!
 ```
 </details>
