@@ -38,7 +38,10 @@ Luisinho
 #### 5) Compra mais vantajosa
 Frequentemente temos que escolher entre produtos semelhantes, mas com quantidade ou volume ou peso diferentes, além do preço. Faça um programa que calcula entre dois produtos qual é a compra mais vantajosa.
 
-O programa deve ler o nome, preço e quantidade de dois produtos e informar qual deles tem melhor valor. O programa não deve fazer a leitura de unidades de medida (kg, ml, etc)
+O programa deve ler o nome, preço e quantidade de dois produtos e informar qual deles tem melhor valor. 
+
+- O programa não deve fazer a leitura de unidades de medida (kg, ml, etc).
+- Caso os preços sejam equivalentes, o programa deve informar que não há compra mais vantajosa.
 
 <details>
   <summary>Exemplo de execução</summary>
