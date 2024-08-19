@@ -76,8 +76,9 @@ O que é mais longo, 4 dias ou 100 horas?
 
 O que pesa mais, 8kg ou 8000g?
 
-Muitas vezes temos que decompor, identificar e transformar entradas do usuário. Faça um programa que lê dois valores de peso e, caso eles estejam em unidades distintas, informa os valores equivalente na outra medida. Ao fim, o programa deve informar qual valor é maior. O programa deve ser capaz de aceitar valores em gramas, kilos e toneladas. 
+Muitas vezes temos que decompor, identificar e transformar entradas do usuário. Faça um programa que lê dois valores de peso e, caso eles estejam em unidades distintas, informa os valores equivalente na outra medida. Ao fim, o programa deve informar qual valor é maior. 
 
+- O programa deve ser capaz de aceitar valores em gramas, kilos e toneladas. 
 - Caso os valores sejam equivalentes, isso deve ser informado.
 - Caso o usuário digite uma entrada inválida, o programa deve indicar erro.
 
