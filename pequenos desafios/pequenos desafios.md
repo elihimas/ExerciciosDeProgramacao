@@ -12,6 +12,29 @@ Queremos determinar qual foi a melhor nota de uma turma. Para isso, precisamos l
 
 Faça um programa que lê a quantidade de alunos e depois cada nota, então informa qual foi a maior nota da turma.
 
+- O programa deve tratar o caso de entradas inválidas
+
+<details>
+  <summary>Exemplo de execução</summary>
+
+```
+Melhor da turma
+
+Quantos alunos há na turma? 3 
+
+Digite a nota do aluno 1: 4,5
+
+Digite a nota do aluno 2: 8b
+
+Valor inválido!!
+Digite a nota do aluno 2: 8
+
+Digite a nota do aluno 3: 9,2
+
+A melhor nota foi: 9,2
+```
+</details>
+
 #### 3) Cálculo de idade
 Podemos saber a idade de uma pessoa a partir de três informações: seu ano de nascimento, o ano atual e se a pessoa já celebrou seu aniversário no ano corrente.
 
